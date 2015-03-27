@@ -1,5 +1,6 @@
 name: David Shawe is a designer from Northern Ireland.
 markdown: redcarpet
 highlighter: pygments # or rouge or null
-baseurl: shawe.co
+baseurl:
+url: http://shawe.co
 exclude: ['node_modules', 'gulpfile.js', 'package.json', 'src', 'Gemfile', 'Gemfile.lock']
