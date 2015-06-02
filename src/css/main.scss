@@ -219,6 +219,28 @@ nav ul li a { text-decoration: none; padding-left: 1em; }
 }
 
 
+/* Fat Screens */
+@media only screen and (min-width : 568.1px) and (max-width : 768px) {
+
+.split 
+{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    margin: 0px auto;
+    font-size: 0.75em;
+}
+
+.blog-posts { padding: 0; }
+
+.theshawe header { padding: 0; }
+
+.about {
+    padding: .5em;
+}
+
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 568px) {
