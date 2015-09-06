@@ -303,6 +303,15 @@ nav ul li a { text-decoration: none; padding-left: 1em; }
 .content a { font-size: .5em; }
 .blog-posts p  { margin-top: 1em; margin-bottom: 2em; font-size: .758em; line-height: 1em;}
 nav ul li a  { padding-left: .5em; }
+nav
+{ 
+    top: auto;
+    position: absolute;
+    bottom: 0px;
+    background-color: #000;
+    z-index: 1000;
+    width: 100%;
+}
 }
 
 
