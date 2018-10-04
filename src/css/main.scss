@@ -307,11 +307,13 @@ nav ul li a { text-decoration: none; padding-left: 1em; }
 .david { margin-top: 118px; }
 
 .david h1 {
-  font-size: 30px;
-  line-height: 1em;
-  padding: 0 38px;
-  margin-left: 4px;
-  font-style: italic;
+  font-size: 36px;
+
+line-height: 1.1em;
+
+padding: 0 28px;
+
+max-width: 80%;
   position: absolute;
   bottom: 111px;
 }
