@@ -27,7 +27,7 @@ color: #FFF;
    }
 
 
-p { margin: 1em 0; color: rgb(186, 186, 176); }
+p { margin: .5em 0em 2em 0em; color: rgb(186, 186, 176); }
 
 a         { color: #fff; }
 a:hover   { color: #fff; }
@@ -125,6 +125,7 @@ float: left;
 .content 
 {
   max-width: 780px;
+  margin-top: 2em;
 }
 
 .blog-posts 
@@ -329,7 +330,7 @@ nav
     top: auto;
     position: absolute;
     bottom: 0px;
-    background-color: #000;
+    background-color: #160029;
     z-index: 1000;
     width: 100%;
 }
