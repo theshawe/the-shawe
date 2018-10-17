@@ -1,0 +1,22 @@
+---
+layout: blog
+title: Contact David Jackson Shawe
+---
+
+
+<div style="max-width: 700px; margin: 0 auto; padding: 50px;">
+
+<h1>My Thoughts</h1>    
+
+<div class="blog-posts">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+
+<p>✌🏻</p>
+
+</div>
