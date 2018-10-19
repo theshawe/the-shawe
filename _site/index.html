@@ -38,17 +38,43 @@
 
 <style>
 
-    
+    .blog-posts {
+    padding: 1em .5em;
+    max-width: 70%;
+    margin-left: 11%;
+}
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+
+.posts span {
+  font-family: Monaco,"Courier New",monospace;
+  font-size: 50%;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  color: #20B040;
+  letter-spacing: -1px;
+  display: block;
+  padding: 12px 0px 6px 2px;
+  text-align: left;
+}
 
 .posts li {
-
-line-height: 2em;
-max-width: 50%;
-text-align: left;
-margin: 0 auto;
-height: auto;
-
+    line-height: 1.75em;
+    max-width: 50%;
+    text-align: left;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-left: auto;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 35px;
 }
+
 .posts li a {
 
 text-decoration: none;
@@ -57,7 +83,7 @@ color: #000;
 display: block;
 line-height: 1em;
 padding: 10px 15px;
-text-align: center;
+text-align: left;
 border-radius: 7px;
 font-size: 24px;
 
@@ -187,8 +213,13 @@ background-color: #000000;
     font-size: .758em; 
     line-height: 1em;
 }
-nav ul li a  { 
-    padding-left: .5em; 
+nav ul li a {
+    text-decoration: none;
+    padding-left: 1em;
+    font-size: .8em;
+    line-height: 1em;
+    display: inline;
+    padding: 10px;
 }
 
 nav
@@ -250,13 +281,14 @@ nav
 </header>
 
 <div class="blog-posts">
+  <h2>Latest Thoughts</h2>
   <ul class="posts">
     
-      <li><span>07 Oct 2018</span><a href="/podcast,/particle/colliders,/northern/ireland,/david/shawe,/theshawe/2018/10/07/particle-colliders-episode-01-david-shawe.html">Particle Colliders - Solocasting - Episode 1 - David Jackson Shawe.</a></li>
+      <li><a href="/podcast,/particle/colliders,/northern/ireland,/david/shawe,/theshawe/2018/10/07/particle-colliders-episode-01-david-shawe.html">Particle Colliders - Solocasting - Episode 1 - David Jackson Shawe.<span>07 Oct 2018</span></a></li>
     
-      <li><span>28 Mar 2015</span><a href="/web/2015/03/28/brave-new-world.html">Brave New World</a></li>
+      <li><a href="/web/2015/03/28/brave-new-world.html">Brave New World<span>28 Mar 2015</span></a></li>
     
-      <li><span>25 Mar 2015</span><a href="/web/2015/03/25/the-fear.html">The Fear</a></li>
+      <li><a href="/web/2015/03/25/the-fear.html">The Fear<span>25 Mar 2015</span></a></li>
     
   </ul>
 </div>

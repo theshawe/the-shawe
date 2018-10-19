@@ -5,9 +5,10 @@
 </header>
 
 <div class="blog-posts">
+  <h2>Latest Thoughts</h2>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span>{{ post.date | date_to_string }}</span></a></li>
     {% endfor %}
   </ul>
 </div>
