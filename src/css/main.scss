@@ -89,9 +89,10 @@ margin: 0 auto;
   font-family: .5em;
 }
 
-header 
-{
 
+header {
+  position: fixed;
+  top: 0;
 }
 
 header a
@@ -120,6 +121,7 @@ float: left;
   padding-top: .75em;
   width: 100%;
   text-align: center;
+  display: none;
 }
 
 .content 
