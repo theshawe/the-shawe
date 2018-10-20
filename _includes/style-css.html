@@ -123,10 +123,21 @@ background-color: #000000;
   text-align: center;
 }
 
-
+.split 
+{ 
+width: 50%;
+height: 100%;
+position: relative;
+margin: 0 auto;
+margin-bottom: 500px;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 568px) {
+    header {
+    position: inherit;
+}
+
 .split { width: 100%; }
 
 .about {
@@ -166,8 +177,9 @@ background-color: #000000;
     padding: 1em; 
     padding-top: 0; 
 }
-.content a { 
-    font-size: 1em; 
+.content a {
+    font-size: .25em;
+    display: block;
 }
 .blog-posts p  { 
     margin-top: 1em; 
