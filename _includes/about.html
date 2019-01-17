@@ -1,9 +1,11 @@
-<section class="split">
 
-<div class="about">
+
+
 <header>
 <h1 class="title">{{ site.name }}</h1>
 </header>
+
+
 <article class="content"> 
 <h2>About Me</h2>
 <p>yolo, karma, breath. What's the craic fam. It's 2019 and I'm nearly 30. I'm a designer/developer, future game changer whose currently working in Email Marketing.</p>
@@ -16,9 +18,25 @@
 
 <h2>Contact</h2>
 <p>Send mail to <a href="mailto:david@invisiblebuilding.com">david@invisiblebuilding.com</a>
+
+
+
+
+
+    <div class="blog-posts">
+            <h2>Latest Thoughts</h2>
+            <ul class="posts">
+              {% for post in site.posts %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span>{{ post.date | date_to_string }}</span></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          
+          
+          
+          
+          
 </article>
 
 
 
-</div>
-</section>
