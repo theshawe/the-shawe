@@ -1,12 +1,14 @@
-<section class="split david">
 
-<div class="about">
+
+
 <header>
 <h1 class="title">{{ site.name }}</h1>
 </header>
+
+
 <article class="content"> 
 <h2>About Me</h2>
-<p>I'm a 29 year old designer that loves the web. I was born in 1989, this means I have grown up living with the internet. I graduated in 2011 and I currently work within Email Marketing.</p>
+<p>yolo, karma, breath. What's the craic fam. It's 2019 and I'm nearly 30. I'm a designer/developer, future game changer whose currently working in Email Marketing.</p>
 
 <h2>Podcast</h2>
 <p>I've just launched a personal podcast, you can listen <a href="http://shawe.co/podcast">here</a>.</p>
@@ -16,9 +18,25 @@
 
 <h2>Contact</h2>
 <p>Send mail to <a href="mailto:david@invisiblebuilding.com">david@invisiblebuilding.com</a>
+
+
+
+
+
+    <div class="blog-posts">
+            <h2>Latest Thoughts</h2>
+            <ul class="posts">
+              {% for post in site.posts %}
+                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span>{{ post.date | date_to_string }}</span></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          
+          
+          
+          
+          
 </article>
 
 
 
-</div>
-</section>

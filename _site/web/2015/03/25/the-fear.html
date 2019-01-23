@@ -38,11 +38,10 @@
 
 <style>
 
-    .blog-posts {
-        padding: 1em .5em;
-max-width: 100%;
-margin-left: -10%;
+article {
+    max-width: 700px; margin: 0 auto; padding: 50px; text-align: center;
 }
+
 
 .posts {
   list-style-type: none;
@@ -128,16 +127,17 @@ nav ul li {
 .content 
 {
   max-width: 780px;
-  margin-top: .25em;
+  margin-top: 1.5em;
   margin-bottom: 2em;
 }
 
 
 header {
-
-position: fixed;
-top: 0;
-background-color: #000000;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
 }
 
 .theshawe header
@@ -161,13 +161,8 @@ background-color: #000000;
   text-align: center;
 }
 
-.split 
-{ 
-width: 50%;
-height: 100%;
-position: relative;
-margin: 0 auto;
-margin-bottom: 500px;
+.split {
+    max-width: 420px;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -273,6 +268,8 @@ position: absolute;
 top: 40%;
 display: none;
 }
+
+
 </style>
 
 </head>
@@ -345,7 +342,6 @@ display: none;
 <nav>
     <ul>
         <li><a class="theshawe-brand" href="/index.html">theshawe</a></li>
-        <li><a href="/about.html">About</a></li>
         <li><a href="/work">Work</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/podcast">Podcast</a></li>
