@@ -36,27 +36,52 @@
 <!-- build:js(app) /js/head-scripts.js -->
 
 
+<style>
 
-</head>
-
-<body>
-
-  <style>
+header .title {
+  display: inline-block;
+  max-width: 800px;
+  line-height: 1em;
+  font-size: .8em;
+  padding-top: 1em;
+}
 
 article {
     max-width: 700px; margin: 0 auto; padding: 50px; text-align: center;
 }
-    
+
+
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+
+.posts span {
+  font-family: Monaco,"Courier New",monospace;
+  font-size: 50%;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  color: #20B040;
+  letter-spacing: -1px;
+  display: block;
+  padding: 12px 0px 6px 2px;
+  text-align: left;
+}
 
 .posts li {
-
-line-height: 2em;
-max-width: 50%;
-text-align: left;
-margin: 0 auto;
-height: auto;
-
+    line-height: 1.75em;
+    max-width: 100%;
+    text-align: left;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-left: auto;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 35px;
 }
+
 .posts li a {
 
 text-decoration: none;
@@ -65,7 +90,7 @@ color: #000;
 display: block;
 line-height: 1em;
 padding: 10px 15px;
-text-align: center;
+text-align: left;
 border-radius: 7px;
 font-size: 24px;
 
@@ -88,7 +113,7 @@ footer {
 position: fixed;
 bottom: 0;
 height: 100px;
-background: #130d1e;
+background: #020202;
 width: 100%;
 display: block;
 text-align: center;
@@ -107,34 +132,127 @@ nav ul li {
     line-height: 100px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 568px) {
-.split { width: 100%; }
-
-.about {     
-  float: left;
-  width: 100%;
-  padding: 0;
-  margin-top: 170px;
-  font-size: 1.5em;
-  margin-left: -20px; 
+.content 
+{
+  max-width: 780px;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
 }
 
-.theshawe { position: absolute; }
-.david { margin-top: 118px; }
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+}
+
+.theshawe header
+{
+  font-family: "metalista-web";
+  font-size: 2em;
+  text-decoration: none;
+  padding-top: .75em;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.theshawe-brand
+{
+  font-family: "metalista-web";
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: .75em;
+  width: 100%;
+  text-align: center;
+}
+
+.split {
+    max-width: 420px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 568px) {
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+
+    font-size: .925em;
+
+}
+
+    header {
+    position: inherit;
+}
+
+#nav-home {
+    display: none;
+}
+
+.split { width: 100%; }
+
+.about {
+    width: 100%;
+    padding: 0;
+    margin-top: 0px;
+    font-size: 2.5em;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.theshawe { 
+    position: absolute;  
+    display: none;
+}
+
+.david { 
+    margin-top: 50px; 
+}
 
 .david h1 {
     font-size: 36px;
-line-height: 1.1em;
-padding: 0 44px;
-max-width: 80%;}
+    line-height: 1.1em;
+    padding: 0 44px;
+    max-width: 80%;
+}
 
-.david h2 { font-size: 22px; }
-.david p  { margin-top: 1em; margin-bottom: 2em; font-size: .758em; line-height: 1em;}
-.content  { padding: 1em; padding-top: 0; }
-.content a { font-size: 1em; }
-.blog-posts p  { margin-top: 1em; margin-bottom: 2em; font-size: .758em; line-height: 1em;}
-nav ul li a  { padding-left: .5em; }
+.david h2 { 
+    font-size: 22px; 
+}
+.david p  { 
+    margin-top: 1em;
+    margin-bottom: 2em; font-size: .758em; 
+    line-height: 1em;
+    font-size: .3578em;
+}
+.content  { 
+    padding: 1em; 
+    padding-top: 0; 
+}
+.content a {
+    font-size: .25em;
+    display: block;
+}
+.blog-posts p  { 
+    margin-top: 1em; 
+    margin-bottom: 2em; 
+    font-size: .758em; 
+    line-height: 1em;
+}
+nav ul li a {
+    text-decoration: none;
+    padding-left: 1em;
+    font-size: .8em;
+    line-height: 1em;
+    display: inline;
+    padding: 10px;
+}
+
 nav
 { 
     top: auto;
@@ -144,22 +262,54 @@ nav
     z-index: 1000;
     width: 100%;
 }
+
+}
+
+
+.about h1 
+
+{ font-size: .5em;}
+
+#nav-home {
+
+position: absolute;
+top: 40%;
+display: none;
 }
 
 
 
-/* Blog layout */
-
-.posts li {
-    line-height: 1.5em;
-    max-width: 100%;
-    text-align: left;
+@media only screen and (max-width: 568px) and (min-width: 320px) {
+.content {
+    padding: 0px;
+    padding-top: 25px;
+    max-width: 260px;
     margin: 0 auto;
-    height: auto;
-    font-size: 1em;
 }
 
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1em;
+    font-size: .8em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-left: 0px;
+    font-size: .8em;
+    line-height: 1em;
+    display: inline;
+    padding: 7px;
+}
+
+}
 </style>
+
+</head>
+
+<body>
+
 
 
 <article>
