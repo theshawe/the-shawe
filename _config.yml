@@ -1,6 +1,6 @@
 name: My name is David Shawe and I'm a designer from Northern Ireland.
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge # or rouge or null
 baseurl:
 url: http://shawe.co
 exclude: ['node_modules', 'gulpfile.js', 'package.json', 'src', 'Gemfile', 'Gemfile.lock']
