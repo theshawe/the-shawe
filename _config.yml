@@ -1,5 +1,5 @@
 name: My name is David Shawe and I'm a designer from Northern Ireland.
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge # or rouge or null
 baseurl:
 url: http://shawe.co
