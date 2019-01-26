@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+
+<section class="">
+<div class="blog-posts">
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+{{ content }}
+</div>
+
+</div>
+</section>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127024031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127024031-1');
+</script>

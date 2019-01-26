@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-podcast
 title:  "Particle Colliders - Solocasting - Episode 1 - David Jackson Shawe."
 date:   2018-10-07 11:11:11
 categories: Podcast, Particle Colliders, Northern Ireland, David Shawe, theshawe
