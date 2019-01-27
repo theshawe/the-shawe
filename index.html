@@ -3,4 +3,38 @@ layout: default
 title: David Shawe
 ---
 
-{% include about.html %}
+<article class="content"> 
+<h1><a class="theshawe-brand" href="{{ site.baseurl }}/index.html">theshawe</a></h1>
+
+    <h3>yolo, karma, breathe.</h3>
+    
+    <br>
+    <p> What's the craic fam. I'm David Jackson Shawe and I'm a designer, a developer, a maker. </p> <p>I'm also sort of <i>an ethical marketer...</i> and I'm based in County Down Northern Ireland.</p>
+    
+    <h2>Podcast</h2>
+    <p>You might know that I've launched a personal podcast. Episode 01 is out and you can listen for free at <a href="http://shawe.co/podcast">/podcast</a>. <br> I'll be be updating it regularly, so stay tunned and get subscribed.  Episode 01 is a solocast and I introduce myself, my why and hint at the <a href="http://shawe.co/podcast">topic of intuition</a>.</p>
+    
+    <h2>Work</h2>
+    <p>I run my own business and trade as Invisible Building. We sell web to local business and creatives.</p>
+    
+    <h2>Contact</h2>
+    <p>Send mail to <a href="mailto:david@invisiblebuilding.com">david@invisiblebuilding.com</a>
+    
+</article>
+
+    
+    
+<div class="blog-posts">
+    <h2>Latest Thoughts</h2>
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<span>{{ post.date | date_to_string }}</span></a></li>
+      {% endfor %}
+    </ul>
+</div>
+  
+  
+    
+    
+    
+    
