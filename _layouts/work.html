@@ -9,15 +9,17 @@
 <!-- build:css({app,.tmp}) /src/css/main.css -->
 <link rel="stylesheet" href="_bower_components/normalize-css/normalize.css">
 <!-- Custom CSS -->
-
-<link rel="stylesheet" href="/css/main.css">
-
+<link rel="stylesheet" href="/dist/css/build.min.css">
 <!-- endbuild -->    <!-- endbuild -->
 <!-- build:js(app) /js/head-scripts.js -->
+
+
 </head>
 <body>
-{% include header.html %}
+
+<section id="work">
 {{ content }}
+</section>
 {% include footer.html %}
 </body>
 

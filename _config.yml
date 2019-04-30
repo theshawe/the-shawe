@@ -3,4 +3,14 @@ markdown: kramdown
 highlighter: rouge # or rouge or null
 baseurl:
 url: http://shawe.co
-exclude: ['node_modules', 'gulpfile.js', 'package.json', 'src', 'Gemfile', 'Gemfile.lock']
+sass:
+  sass_dir: css
+exclude:
+  [
+    "node_modules",
+    "gulpfile.js",
+    "package.json",
+    "src",
+    "Gemfile",
+    "Gemfile.lock",
+  ]

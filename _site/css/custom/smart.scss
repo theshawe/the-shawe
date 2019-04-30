@@ -1,0 +1,112 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .contact {
+    text-align: center;
+  }
+  .contact p {
+    font-size: 0.925em;
+  }
+  header {
+    position: inherit;
+  }
+  #nav-home {
+    display: none;
+  }
+
+  .about {
+    width: 100%;
+    padding: 0;
+    margin-top: 0px;
+    font-size: 2.5em;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .theshawe {
+    position: absolute;
+    display: none;
+  }
+  .david {
+    margin-top: 50px;
+  }
+  .david h1 {
+    font-size: 36px;
+    line-height: 1.1em;
+    padding: 0 44px;
+    max-width: 80%;
+  }
+  .david h2 {
+    font-size: 22px;
+  }
+  .david p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.758em;
+    line-height: 1em;
+    font-size: 0.3578em;
+  }
+  .content {
+    padding: 1em;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  .content a {
+  }
+  .blog-posts p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.758em;
+    line-height: 1em;
+  }
+  nav ul li a {
+    text-decoration: none;
+    padding-left: 1em;
+    font-size: 0.8em;
+    line-height: 1em;
+    display: inline;
+    padding: 10px;
+  }
+  nav {
+    top: auto;
+    position: absolute;
+    bottom: 0px;
+    background-color: #000;
+    z-index: 1000;
+    width: 100%;
+  }
+}
+.about h1 {
+  font-size: 0.5em;
+}
+#nav-home {
+  position: absolute;
+  top: 40%;
+  display: none;
+}
+
+@media only screen and (max-width: 568px) and (min-width: 320px) {
+  .content {
+    padding: 0px;
+    padding-top: 25px;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .content p {
+    margin: 0em 0em 1em 0em;
+    color: #babab0;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1em;
+    font-size: 0.8em;
+  }
+  nav ul li a {
+    text-decoration: none;
+    padding-left: 0px;
+    font-size: 0.8em;
+    line-height: 2em;
+    display: inline;
+    padding: 7px;
+  }
+}

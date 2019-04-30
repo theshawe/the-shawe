@@ -34,340 +34,102 @@
 <!-- build:css({app,.tmp}) /src/css/main.css -->
 <link rel="stylesheet" href="_bower_components/normalize-css/normalize.css">
 <!-- Custom CSS -->
-<link rel="stylesheet" href="/dist/css/build.min.css">
+
+<link rel="stylesheet" href="/css/main.css">
+
 <!-- endbuild -->    <!-- endbuild -->
 <!-- build:js(app) /js/head-scripts.js -->
-<style>
-
-
-.blog-posts {
-    max-width: 880px;
-    margin: 0 auto;
-}
-
-header .title {
-  display: inline-block;
-  max-width: 800px;
-  line-height: 1em;
-  font-size: .8em;
-  padding-top: 1em;
-}
-
-article {
-    max-width: 700px; margin: 0 auto; padding: 50px; text-align: center;
-}
-
-article ul li {
-
-    list-style: none;
-    line-height: 1.5em;
-    color: #ffffff;
-}
-
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts span {
-    font-family: Monaco,"Courier New",monospace;
-    font-size: 50%;
-    line-height: 0;
-    margin: 0;
-    color: #20B040;
-    letter-spacing: -1px;
-    display: block;
-    padding: 40px 0px 23px 2px;
-    text-align: left;
-    margin-left: -35px;
-}
-
-.posts li {
-    line-height: 1.75em;
-    max-width: 100%;
-    text-align: left;
-    margin: 0 auto;
-        margin-top: 0px;
-        margin-left: auto;
-    height: 110px;
-    margin-top: 30px;
-    margin-left: 35px;
-}
-
-.posts li a {
-
-text-decoration: none;
-background-color: #ffffff;
-color: #000;
-display: block;
-line-height: 1em;
-padding: 10px 15px;
-text-align: left;
-border-radius: 7px;
-font-size: 24px;
-
-}
-
-
-.posts li a:hover {
-
-color: #fff;
-background-color: #1A1A1AE6;
-box-shadow: 2px 5px 1px #13b637;
-transition: 0.3s;
-line-height: 88% !important;
-margin-left: 5px;
-}
-
-
-footer {
-position: fixed;
-bottom: 0;
-height: auto;
-background: #020202;
-width: 100%;
-display: block;
-text-align: center;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
-    line-height: 100px;
-    color: #ffffff;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 100px;
-}
-
-.content 
-{
-  max-width: 780px;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
-}
-
-
-header {
-    position: fixed;
-    top: 0;
-    background-color: #000000;
-    width: 100%;
-    text-align: center;
-}
-
-.theshawe header
-{
-  font-family: "metalista-web";
-  font-size: 2em;
-  text-decoration: none;
-  padding-top: .75em;
-  width: 100%;
-  text-align: center;
-  display: none;
-}
-
-.theshawe-brand
-{
-  font-family: "metalista-web";
-  font-size: 1em;
-  text-decoration: none;
-  padding-top: .75em;
-  width: 100%;
-  text-align: center;
-}
-
-.split {
-    max-width: 420px;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 568px) {
-
-.contact {
-    text-align: center;
-}
-
-.contact p {
-
-    font-size: .925em;
-
-}
-
-    header {
-    position: inherit;
-}
-
-#nav-home {
-    display: none;
-}
-
-.split { width: 100%; }
-
-.about {
-    width: 100%;
-    padding: 0;
-    margin-top: 0px;
-    font-size: 2.5em;
-    margin-left: 0px;
-    text-align: center;
-}
-
-.theshawe { 
-    position: absolute;  
-    display: none;
-}
-
-.david { 
-    margin-top: 50px; 
-}
-
-.david h1 {
-    font-size: 36px;
-    line-height: 1.1em;
-    padding: 0 44px;
-    max-width: 80%;
-}
-
-.david h2 { 
-    font-size: 22px; 
-}
-.david p  { 
-    margin-top: 1em;
-    margin-bottom: 2em; font-size: .758em; 
-    line-height: 1em;
-    font-size: .3578em;
-}
-.content  { 
-    padding: 1em; 
-    padding-top: 0; 
-    margin: 0 auto;
-}
-.content a {
-
-}
-.blog-posts p  { 
-    margin-top: 1em; 
-    margin-bottom: 2em; 
-    font-size: .758em; 
-    line-height: 1em;
-}
-nav ul li a {
-    text-decoration: none;
-    padding-left: 1em;
-    font-size: .8em;
-    line-height: 1em;
-    display: inline;
-    padding: 10px;
-}
-
-nav
-{ 
-    top: auto;
-    position: absolute;
-    bottom: 0px;
-    background-color: #000;
-    z-index: 1000;
-    width: 100%;
-}
-
-}
-
-
-.about h1 
-
-{ font-size: .5em;}
-
-#nav-home {
-
-position: absolute;
-top: 40%;
-display: none;
-}
-
-
-
-@media only screen and (max-width: 568px) and (min-width: 320px) {
-.content {
-    padding: 0px;
-    padding-top: 25px;
-    max-width: 320px;
-    margin: 0 auto;
-}
-
-
-.content p {
-    margin: 0em 0em 1em 0em;
-    color: #babab0;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 1em;
-    font-size: .8em;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding-left: 0px;
-    font-size: .8em;
-    line-height: 2em;
-    display: inline;
-    padding: 7px;
-}
-
-
-
-}
-</style>
-
 </head>
 <body>
-<article class="content"> 
-<h1><a class="theshawe-brand" href="/index.html">theshawe</a></h1>
+<header class="shaweBranding">
+  <h1>
+    <a class="theshawe-brand" href="/index.html"
+      >David Jackson Shawe
+    </a>
+  </h1>
+  <h2>
+    Welcome to my website, currently my main domain is
+    <a href="http://shawe.co">shawe.co</a>
+  </h2>
+  <h3>yolo, karma, breathe.</h3>
+</header>
 
-    <h3>yolo, karma, breathe.</h3>
-    
-    <br>
-    <p> What's the craic fam. I'm David Jackson Shawe and I'm a designer, a developer, a maker. </p> <p> I'm based in County Down Northern Ireland.</p>
-    
-    <h2>Podcast</h2>
-    <p>You might know that I've launched a personal podcast. Episode 01 is out and you can listen for free at <a href="http://shawe.co/podcast">/podcast</a>. <br> I'll be be updating it regularly, so stay tunned and get subscribed.  Episode 01 is a solocast and I introduce myself, my why and hint at the <a href="http://shawe.co/podcast">topic of intuition</a>.</p>
-    
-    <h2>Work</h2>
-    <p>I run my own business and trade as Invisible Building. We sell web to local business and creatives.</p>
-    
-    <h2>Contact</h2>
-    <p>Send mail to <a href="mailto:david@invisiblebuilding.com">david@invisiblebuilding.com</a>
-    
+<article class="content">
+  <br />
+  <p>
+    Craic fam. I'm David and I'm a designer from Belfast, Northern Ireland.
+  </p>
+
+  <h2>Work</h2>
+  <p>
+    I'm self employed and trade as Invisible Building. <br />
+    I design, code, strategise, build and grow brands. With continuous study and
+    natural intuition, I specialise in design for the web and my core source of
+    income is through selling web to local business, creatives and fellow
+    entrepreneurs.
+  </p>
+
+  <h2>CV</h2>
+  <p>
+    Would you like to see more of my work?
+    <a href="/work">Have a read</a>.
+  </p>
+
+  <h2>Hiatus</h2>
+  <p>
+    In 2016 Invisible Building took a three year hiatus when I studyed the art
+    of Email Marketing, working nearly 38.5 hours a week as an Email Developer
+    for a company that sent 7 batch and blash emails a week to a customer base
+    of nearly 2,000,000.
+  </p>
+
+  <h2>Podcast</h2>
+  <p>
+    You might know that I've launched a personal podcast. Episode 01 is out and
+    you can listen for free at <a href="http://shawe.co/podcast">/podcast</a>.
+    <br />
+    I'll be be updating it regularly, so stay tunned and get subscribed. Episode
+    01 is a solocast and I introduce myself, my why and hint at the
+    <a href="http://shawe.co/podcast">topic of intuition</a>.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    Send mail to
+    <a href="mailto:david@invisiblebuilding.com">david@invisiblebuilding.com</a>
+  </p>
 </article>
 
-    
-    
 <div class="blog-posts">
-    <h2>Latest Thoughts</h2>
-    <ul class="posts">
-      
-        <li><a href="/podcast,/particle/colliders,/northern/ireland,/david/shawe,/theshawe/2018/10/07/particle-colliders-episode-01-david-shawe.html">Particle Colliders - Solocasting - Episode 1 - David Jackson Shawe.<span>07 Oct 2018</span></a></li>
-      
-        <li><a href="/mourne/mountains,/northern/ireland,/slieve/donard,/david/shawe,/theshawe/2018/01/21/YouTube-Slieve-Donard-in-the-snow.html">Hiking/Trekking up Slieve Donard in the snow. Mourne Mountains, Northern Ireland<span>21 Jan 2018</span></a></li>
-      
-        <li><a href="/web/2015/03/28/brave-new-world.html">Brave New World<span>28 Mar 2015</span></a></li>
-      
-        <li><a href="/web/2015/03/25/the-fear.html">The Fear<span>25 Mar 2015</span></a></li>
-      
-    </ul>
+  <h2>Latest Thoughts</h2>
+  <ul class="posts">
+    
+    <li>
+      <a href="/podcast,/particle/colliders,/northern/ireland,/david/shawe,/theshawe/2018/10/07/particle-colliders-episode-01-david-shawe.html"
+        >Particle Colliders - Solocasting - Episode 1 - David Jackson Shawe.<span>07 Oct 2018</span></a
+      >
+    </li>
+    
+    <li>
+      <a href="/mourne/mountains,/northern/ireland,/slieve/donard,/david/shawe,/theshawe/2018/01/21/YouTube-Slieve-Donard-in-the-snow.html"
+        >Hiking/Trekking up Slieve Donard in the snow. Mourne Mountains, Northern Ireland<span>21 Jan 2018</span></a
+      >
+    </li>
+    
+    <li>
+      <a href="/web/2015/03/28/brave-new-world.html"
+        >Brave New World<span>28 Mar 2015</span></a
+      >
+    </li>
+    
+    <li>
+      <a href="/web/2015/03/25/the-fear.html"
+        >The Fear<span>25 Mar 2015</span></a
+      >
+    </li>
+    
+  </ul>
 </div>
-  
-  
-    
-    
-    
-    
 
 <footer>
 

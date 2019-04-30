@@ -34,299 +34,26 @@
 <!-- build:css({app,.tmp}) /src/css/main.css -->
 <link rel="stylesheet" href="_bower_components/normalize-css/normalize.css">
 <!-- Custom CSS -->
-<link rel="stylesheet" href="/dist/css/build.min.css">
+
+<link rel="stylesheet" href="/css/main.css">
+
 <!-- endbuild -->    <!-- endbuild -->
 <!-- build:js(app) /js/head-scripts.js -->
-<style>
-
-
-.blog-posts {
-    max-width: 880px;
-    margin: 0 auto;
-}
-
-header .title {
-  display: inline-block;
-  max-width: 800px;
-  line-height: 1em;
-  font-size: .8em;
-  padding-top: 1em;
-}
-
-article {
-    max-width: 700px; margin: 0 auto; padding: 50px; text-align: center;
-}
-
-article ul li {
-
-    list-style: none;
-    line-height: 1.5em;
-    color: #ffffff;
-}
-
-.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.posts span {
-    font-family: Monaco,"Courier New",monospace;
-    font-size: 50%;
-    line-height: 0;
-    margin: 0;
-    color: #20B040;
-    letter-spacing: -1px;
-    display: block;
-    padding: 40px 0px 23px 2px;
-    text-align: left;
-    margin-left: -35px;
-}
-
-.posts li {
-    line-height: 1.75em;
-    max-width: 100%;
-    text-align: left;
-    margin: 0 auto;
-        margin-top: 0px;
-        margin-left: auto;
-    height: 110px;
-    margin-top: 30px;
-    margin-left: 35px;
-}
-
-.posts li a {
-
-text-decoration: none;
-background-color: #ffffff;
-color: #000;
-display: block;
-line-height: 1em;
-padding: 10px 15px;
-text-align: left;
-border-radius: 7px;
-font-size: 24px;
-
-}
-
-
-.posts li a:hover {
-
-color: #fff;
-background-color: #1A1A1AE6;
-box-shadow: 2px 5px 1px #13b637;
-transition: 0.3s;
-line-height: 88% !important;
-margin-left: 5px;
-}
-
-
-footer {
-position: fixed;
-bottom: 0;
-height: auto;
-background: #020202;
-width: 100%;
-display: block;
-text-align: center;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
-    line-height: 100px;
-    color: #ffffff;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 100px;
-}
-
-.content 
-{
-  max-width: 780px;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
-}
-
-
-header {
-    position: fixed;
-    top: 0;
-    background-color: #000000;
-    width: 100%;
-    text-align: center;
-}
-
-.theshawe header
-{
-  font-family: "metalista-web";
-  font-size: 2em;
-  text-decoration: none;
-  padding-top: .75em;
-  width: 100%;
-  text-align: center;
-  display: none;
-}
-
-.theshawe-brand
-{
-  font-family: "metalista-web";
-  font-size: 1em;
-  text-decoration: none;
-  padding-top: .75em;
-  width: 100%;
-  text-align: center;
-}
-
-.split {
-    max-width: 420px;
-}
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 568px) {
-
-.contact {
-    text-align: center;
-}
-
-.contact p {
-
-    font-size: .925em;
-
-}
-
-    header {
-    position: inherit;
-}
-
-#nav-home {
-    display: none;
-}
-
-.split { width: 100%; }
-
-.about {
-    width: 100%;
-    padding: 0;
-    margin-top: 0px;
-    font-size: 2.5em;
-    margin-left: 0px;
-    text-align: center;
-}
-
-.theshawe { 
-    position: absolute;  
-    display: none;
-}
-
-.david { 
-    margin-top: 50px; 
-}
-
-.david h1 {
-    font-size: 36px;
-    line-height: 1.1em;
-    padding: 0 44px;
-    max-width: 80%;
-}
-
-.david h2 { 
-    font-size: 22px; 
-}
-.david p  { 
-    margin-top: 1em;
-    margin-bottom: 2em; font-size: .758em; 
-    line-height: 1em;
-    font-size: .3578em;
-}
-.content  { 
-    padding: 1em; 
-    padding-top: 0; 
-    margin: 0 auto;
-}
-.content a {
-
-}
-.blog-posts p  { 
-    margin-top: 1em; 
-    margin-bottom: 2em; 
-    font-size: .758em; 
-    line-height: 1em;
-}
-nav ul li a {
-    text-decoration: none;
-    padding-left: 1em;
-    font-size: .8em;
-    line-height: 1em;
-    display: inline;
-    padding: 10px;
-}
-
-nav
-{ 
-    top: auto;
-    position: absolute;
-    bottom: 0px;
-    background-color: #000;
-    z-index: 1000;
-    width: 100%;
-}
-
-}
-
-
-.about h1 
-
-{ font-size: .5em;}
-
-#nav-home {
-
-position: absolute;
-top: 40%;
-display: none;
-}
-
-
-
-@media only screen and (max-width: 568px) and (min-width: 320px) {
-.content {
-    padding: 0px;
-    padding-top: 25px;
-    max-width: 320px;
-    margin: 0 auto;
-}
-
-
-.content p {
-    margin: 0em 0em 1em 0em;
-    color: #babab0;
-}
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-    line-height: 1em;
-    font-size: .8em;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding-left: 0px;
-    font-size: .8em;
-    line-height: 2em;
-    display: inline;
-    padding: 7px;
-}
-
-
-
-}
-</style>
-
 </head>
 <body>
+<header class="shaweBranding">
+  <h1>
+    <a class="theshawe-brand" href="/index.html"
+      >David Jackson Shawe
+    </a>
+  </h1>
+  <h2>
+    Welcome to my website, currently my main domain is
+    <a href="http://shawe.co">shawe.co</a>
+  </h2>
+  <h3>yolo, karma, breathe.</h3>
+</header>
+
 <nav>
     <ul>
         <li><a href="/index.html">Home</a></li>
@@ -338,13 +65,13 @@ nav ul li a {
 </nav>    
 
 
-<section class="split">
-<div class="blog-posts">
-<h2>Brave New World</h2>
-<p class="meta">28 Mar 2015</p>
+<section>
+  <div class="blog-posts">
+    <h2>Brave New World</h2>
+    <p class="meta">28 Mar 2015</p>
 
-<div class="post">
-<p>Reading this, you’ll know I’ve started a blog, I’m pretty happy with myself. It’s about time I’ve started to write online. This post was scheduled for 28th of March 2015, but instead it’s going out on the 28th April 2015. If I have an aim for May it is to post more regularly.</p>
+    <div class="post">
+      <p>Reading this, you’ll know I’ve started a blog, I’m pretty happy with myself. It’s about time I’ve started to write online. This post was scheduled for 28th of March 2015, but instead it’s going out on the 28th April 2015. If I have an aim for May it is to post more regularly.</p>
 
 <p>——— I’m going talk about how this site is built, why it’s not finished  and the technology used to make it.</p>
 
@@ -372,19 +99,23 @@ nav ul li a {
 <p>DJS</p>
 
 
-</div>
-
-</div>
+    </div>
+  </div>
 </section>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127024031-1"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=UA-127024031-1"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'UA-127024031-1');
+  gtag("config", "UA-127024031-1");
 </script>
 
 <footer>

@@ -1,0 +1,41 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-size: 38.468px;
+  font-family: "eskapade-fraktur", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  color: #fff;
+}
+
+p {
+  margin: 0.5em 0.5em 1em 0em;
+  color: rgb(186, 186, 176);
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
