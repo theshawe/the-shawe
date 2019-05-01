@@ -99,7 +99,7 @@
 @media only screen and (max-width: 568px) and (min-width: 320px) {
   .shaweBranding {
     position: inherit;
-    padding-top: 0px;
+    padding-top: 0.75em;
     width: 100%;
     text-align: center;
     display: block;
@@ -127,7 +127,7 @@
     margin: 0 auto;
   }
   .content p {
-    margin: 0em 1em 1em 1em;
+    margin: 1em 0.5em 2em 0.5em;
     color: #babab0;
     font-size: 0.7em;
   }
