@@ -475,6 +475,17 @@ header {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 568px) {
+  .shaweBranding {
+    position: inherit;
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: auto;
+    background: #00000082;
+    font-size: 2em;
+    padding-bottom: 0px; }
+
   .contact {
     text-align: center; }
 
@@ -553,6 +564,17 @@ header {
   display: none; }
 
 @media only screen and (max-width: 568px) and (min-width: 320px) {
+  .shaweBranding {
+    position: inherit;
+    padding-top: 0px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    height: auto;
+    background: #00000082;
+    font-size: 2em;
+    padding-bottom: 0px; }
+
   .shaweBranding h1 {
     font-size: 0.5em;
     line-height: 1em;
@@ -564,13 +586,14 @@ header {
 
   .content {
     padding: 0px;
-    padding-top: 25px;
+    padding-top: 0px;
     max-width: 320px;
     margin: 0 auto; }
 
   .content p {
-    margin: 0em 0em 1em 0em;
-    color: #babab0; }
+    margin: 0em 1em 1em 1em;
+    color: #babab0;
+    font-size: 0.7em; }
 
   nav ul li {
     list-style: none;
