@@ -69,7 +69,7 @@ header .intro {
   display: block;
   margin-top: 0.5em;
   background-position-y: -330px;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://127.1:4000/images/david-shawe-eye-of-horus.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(../images/david-shawe-eye-of-horus.jpg);
   background-size: 15.111%; }
 
 header p {
