@@ -3,6 +3,7 @@ section .workList {
   text-align: center;
   display: block;
   max-width: 800px;
+  padding: 1em;
 }
 
 section .workList li {
@@ -13,14 +14,14 @@ section .workList li {
 section .workList a {
   border-radius: 5px;
   list-style: none;
-  font-size: 0.5em;
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 0px;
   display: block;
   padding-bottom: 0;
   margin-bottom: 1em;
-  line-height: 2em;
+  line-height: 1em;
+  text-decoration: none;
 }
 
 section .workList .ib a {

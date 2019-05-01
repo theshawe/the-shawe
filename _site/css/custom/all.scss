@@ -30,11 +30,6 @@ article {
   font-family: 0.5em;
 }
 
-header {
-  position: fixed;
-  top: 0;
-}
-
 header a {
   color: #fff;
   text-decoration: none;
@@ -260,10 +255,11 @@ nav ul li a {
   color: #fff;
   background-color: #1a1a1ae6;
   box-shadow: 2px 5px 1px #13b637;
-  width: 88%;
-  transition: 0.3s;
-  line-height: 88% !important;
+  width: 100%;
+  transition: 0.75s;
+  line-height: 100% !important;
   margin-left: 5px;
+  width: auto;
 }
 
 footer {
@@ -414,7 +410,7 @@ article ul li {
   background-color: #1a1a1ae6;
   box-shadow: 2px 5px 1px #13b637;
   transition: 0.3s;
-  line-height: 88% !important;
+  line-height: 100% !important;
   margin-left: 5px;
 }
 footer {
@@ -438,13 +434,6 @@ nav ul li {
   line-height: 100px;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  background-color: #000000;
-  width: 100%;
-  text-align: center;
-}
 .theshawe header {
   font-family: "metalista-web";
   font-size: 2em;
