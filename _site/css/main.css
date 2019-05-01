@@ -35,12 +35,12 @@ a:visited {
   color: #fff; }
 
 .shaweBranding {
-  position: inherit;
+  position: relative;
   padding-top: 0.5em;
   width: 100%;
   text-align: center;
   display: block;
-  height: 100px;
+  height: auto;
   background: #00000082;
   font-size: 2em;
   padding-bottom: 0.5em; }
@@ -59,6 +59,29 @@ a:visited {
   margin: 0;
   font-size: 0.5em; }
 
+header .intro {
+  height: auto;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  right: 0;
+  display: block;
+  margin-top: 0.5em;
+  background-position-y: -330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://127.1:4000/images/david-shawe-eye-of-horus.jpg);
+  background-size: 15.111%; }
+
+header p {
+  color: #ffffff;
+  font-size: 80px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1em;
+  padding: 1em;
+  opacity: 1; }
+
 /*****************************************************************************/
 /*
   /* Home
@@ -69,12 +92,6 @@ a:visited {
   /* Site
   /*
   /*****************************************************************************/
-.content {
-  padding: 1em;
-  padding-top: 0;
-  max-width: 780px;
-  margin-bottom: 2em; }
-
 article {
   max-width: 700px;
   margin: 0 auto;
