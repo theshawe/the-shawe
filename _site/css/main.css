@@ -503,6 +503,9 @@ header {
     font-size: 2em;
     padding-bottom: 0px; }
 
+  header p {
+    font-size: 33px; }
+
   .contact {
     text-align: center; }
 
