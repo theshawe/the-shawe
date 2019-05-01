@@ -63,7 +63,7 @@ header .intro {
   height: auto;
   background-size: cover;
   width: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: relative;
   right: 0;
   display: block;
@@ -71,6 +71,19 @@ header .intro {
   background-position-y: -330px;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/david-shawe-eye-of-horus.jpg);
   background-size: 15.111%; }
+
+header .work {
+  height: auto;
+  background-size: contain;
+  width: 100%;
+  background-repeat: repeat;
+  position: relative;
+  right: 0;
+  display: block;
+  margin-top: 0.5em;
+  background-position-y: -330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: 100%; }
 
 header p {
   color: #ffffff;
@@ -489,6 +502,38 @@ header {
   margin: 0 auto;
   display: block;
   position: relative; }
+
+header .workList a {
+  border-radius: 5px;
+  list-style: none;
+  font-size: 0.5em;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 1em;
+  margin-bottom: 1em; }
+
+header .workList .ib a {
+  background: #510ad236; }
+
+header .workList .crc a {
+  background: #0a6ad2a3; }
+
+header .workList .malone a {
+  background: linear-gradient(-167deg, rgba(113, 194, 102, 0.49) 0%, rgba(73, 167, 204, 0.82) 68%); }
+
+header .workList .techies a {
+  background: linear-gradient(121deg, rgba(8, 9, 0, 0.66) 33%, rgba(255, 235, 3, 0.35) 93%, rgba(190, 177, 29, 0.47) 5%); }
+
+header .workList .theFoundry a {
+  background: #fffc17b5;
+  color: #1f1e1e; }
+
+header .workList .lsd a {
+  background: #ffffff57; }
+
+header .workList .uwp a {
+  background: #12ffc145; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 568px) {

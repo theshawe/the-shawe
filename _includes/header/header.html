@@ -1,0 +1,48 @@
+<header class="shaweBranding">
+  <h1>
+    <a class="theshawe-brand" href="{{ site.baseurl }}/index.html"
+      >David Jackson Shawe
+    </a>
+  </h1>
+  <h2>
+    Welcome to my website, currently my main domain is
+    <a href="http://shawe.co">shawe.co</a>
+  </h2>
+  <h3>yolo, karma, breathe.</h3>
+
+  {% if page.category == 'home' %}
+  <div class="intro">
+    {% elsif page.category == 'work' %}
+    <div class="work">
+      {% else %}
+      <div class="intro">
+        {% endif %} {% if page.category == 'home' %}
+        <p>
+          Craic fam. I'm David &amp; I'm a Designer from Belfast, Northern
+          Ireland.
+        </p>
+        {% elsif page.category == 'work' %}
+
+        <ul class="workList">
+          <li class="ib"><a href="">Invisible Building</a></li>
+          <li class="crc"><a href="">Chain Reaction Cycles</a></li>
+          <li class="malone"><a href="">Malone Intergrated College</a></li>
+          <li class="techies"><a href="">Techies In Residence</a></li>
+          <li class="theFoundry"><a href="">The Foundry Belfast</a></li>
+          <li class="lsd"><a href="">Leslie Stannage Design</a></li>
+          <li class="uwp"><a href="">Underwaterpistol</a></li>
+        </ul>
+
+        {% else %}
+        <p>
+          Craic fam. I'm David &amp; I'm a Designer from Belfast, Northern
+          Ireland.
+        </p>
+        {% endif %} {% if page.category == 'home' %}
+      </div>
+      {% elsif page.category == 'work' %}
+    </div>
+    {% else %}
+  </div>
+  {% endif %}
+</header>
