@@ -82,6 +82,22 @@ header .work {
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size: 100%; }
 
+header .ib {
+  height: auto;
+  background-size: contain;
+  width: 100%;
+  background-repeat: repeat;
+  position: relative;
+  right: 0;
+  display: block;
+  margin-top: 0.5em;
+  background-position-y: -330px;
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/invisible-building.jpg);
+  background-size: 100%; }
+
+.work h2 {
+  padding: 2em; }
+
 header p {
   color: #ffffff;
   font-size: 80px;
