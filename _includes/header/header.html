@@ -14,14 +14,16 @@
   <div class="intro">
     {% elsif page.category == 'work' %}
     <div class="work">
-        {% elsif page.category == 'ib' %}
+        {% elsif  page.category ==  'ib' %}
         <div class="ib">
             {% elsif page.category == 'crc' %}
             <div class="crc">
-                {% elsif page.category == 'mic' %}
+                {% elsif page.category == 'malonecollege' %}
                 <div class="mic">
-                    {% elsif page.category == 'tfb' %}
-                    <div class="tfb">
+                    {% elsif page.category == 'techies' %}
+                    <div class="techies">
+                      {% elsif page.category == 'theFoundry' %}
+                      <div class="theFoundry">
                         {% elsif page.category == 'lsd' %}
                         <div class="lsd">
                             {% elsif page.category == 'uwp' %}
@@ -49,8 +51,7 @@
         </p>
         {% else %}
         <p>
-          Craic fam. I'm David &amp; I'm a Designer from Belfast, Northern
-          Ireland.
+        {{ page.title }}
         </p>
         {% endif %} {% if page.category == 'home' %}
       </div>
