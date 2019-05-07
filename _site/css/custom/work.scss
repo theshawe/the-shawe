@@ -4,6 +4,7 @@ section .workList {
   display: block;
   max-width: 800px;
   padding: 1em;
+  margin-bottom: 100px;
 }
 
 section .workList li {
@@ -50,14 +51,14 @@ section .workList .techies a {
 }
 
 section .workList .theFoundry a {
-  background: #fffc17b5;
+  background: #fbce28;
   color: #1f1e1e;
 }
 
 section .workList .lsd a {
-  background: #ffffff57;
+  background: #ed552e;
 }
 
 section .workList .uwp a {
-  background: #12ffc145;
+  background: #4ddaf4;
 }

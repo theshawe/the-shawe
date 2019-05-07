@@ -85,37 +85,37 @@ header .work {
 header .ib {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/invisible-building-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://shawe.co/images/work/invisible-building-header.jpg); }
 
 header .crc {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/chain-reaction-cycles-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://shawe.co/images/work/chain-reaction-cycles-header.jpg); }
 
 header .maloneCollege {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/malone-college-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://shawe.co/images/work/malone-college-header.jpg); }
 
 header .techies {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/techies-in-residence-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://shawe.co/images/work/techies-in-residence-header.jpg); }
 
 header .theFoundryBelfast {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/the-foundry-belfast-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://127.1:4000/images/work/the-foundry-belfast-header.jpg); }
 
 header .lsd {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/lsd-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://127.1:4000/images/work/lsd-header.jpg); }
 
 header .uwp {
   margin: 1em 0em;
   padding: 0.5em 0em;
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/uwp--header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(http://shawe.co/images/work/underwaterpistol-header.jpg); }
 
 .work h2 {
   padding: 2em; }
@@ -533,7 +533,8 @@ section .workList {
   text-align: center;
   display: block;
   max-width: 800px;
-  padding: 1em; }
+  padding: 1em;
+  margin-bottom: 100px; }
 
 section .workList li {
   max-width: 800px;
@@ -564,14 +565,14 @@ section .workList .techies a {
   background: linear-gradient(121deg, rgba(8, 9, 0, 0.66) 33%, rgba(255, 235, 3, 0.35) 93%, rgba(190, 177, 29, 0.47) 5%); }
 
 section .workList .theFoundry a {
-  background: #fffc17b5;
+  background: #fbce28;
   color: #1f1e1e; }
 
 section .workList .lsd a {
-  background: #ffffff57; }
+  background: #ed552e; }
 
 section .workList .uwp a {
-  background: #12ffc145; }
+  background: #4ddaf4; }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 568px) {
