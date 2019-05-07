@@ -9,17 +9,16 @@
 <!-- removed  -->
 <!-- removed  -->
 <!-- Custom CSS -->
-<link rel="stylesheet" href="/dist/css/build.min.css">
+
+<link rel="stylesheet" href="/css/main.css">
+
 <!-- endbuild -->    <!-- endbuild -->
 <!-- build:js(app) /js/head-scripts.js -->
-
-
 </head>
 <body>
-
-<section id="work">
+{% include header/header.html %}
 {{ content }}
-</section>
+{% include work/workList.html %}
 {% include footer/footer.html %}
 </body>
 
