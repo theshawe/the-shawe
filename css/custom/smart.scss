@@ -119,6 +119,30 @@
     margin: 0;
   }
 
+  header .intro {
+    height: 220px;
+    width: 100%;
+    background-repeat: repeat;
+    position: relative;
+    right: 0;
+    display: block;
+    background-position-y: -330px;
+    background: linear-gradient(rgba(84, 82, 83, 0.54), rgba(66, 45, 67, 0.3)),
+      url(https://shawe.co/images/david-shawe-eye-of-horus.jpg);
+    background-size: 60%;
+    background-position: 18px -42px;
+  }
+
+  header .intro p {
+    color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1em;
+    padding: 1.5em;
+    opacity: 1;
+  }
+
   article content a {
     font-size: 0.5em;
   }
