@@ -589,17 +589,13 @@ section .workList .uwp a {
     font-size: 2em;
     padding-bottom: 0px; }
 
-  .shaweBranding .work h2 {
+  .shaweBranding h2 {
     line-height: 1em;
-    font-size: 0.5em;
-    padding: 0.5em; }
-
-  header .work {
-    background: #000; }
+    font-size: 0.5em; }
 
   header p {
     font-size: 0.75em;
-    padding: 1em 1em;
+    padding: 0.25em 1em 1.25em 1em;
     margin: 0;
     font-style: italic; }
 
@@ -660,6 +656,13 @@ section .workList .uwp a {
     font-size: 0.8em;
     margin: 0; }
 
+  .blog-posts {
+    padding: 0; }
+
+  .posts li {
+    margin-top: 0;
+    margin-bottom: 1.5em; }
+
   .blog-posts p {
     margin-top: 1em;
     margin-bottom: 2em;
@@ -708,16 +711,15 @@ section .workList .uwp a {
     margin: 0; }
 
   header .intro {
-    height: 220px;
     width: 100%;
     background-repeat: repeat;
     position: relative;
     right: 0;
     display: block;
     background-position-y: -330px;
-    background: linear-gradient(rgba(84, 82, 83, 0.54), rgba(66, 45, 67, 0.3)), url(https://shawe.co/images/david-shawe-eye-of-horus.jpg);
     background-size: 60%;
-    background-position: 18px -42px; }
+    background-position: 18px -42px;
+    margin-top: -35.5px; }
 
   header .intro p {
     color: #ffffff;
@@ -725,7 +727,7 @@ section .workList .uwp a {
     margin: 0 auto;
     text-align: center;
     line-height: 1em;
-    padding: 1.5em;
+    padding: 1em;
     opacity: 1; }
 
   .content {
@@ -742,9 +744,10 @@ section .workList .uwp a {
     font-size: 1em; }
 
   .content p {
-    margin: 0.5em 0.5em 2em 0.5em;
+    padding: 2em 1em;
     color: #babab0;
-    font-size: 0.7em; }
+    font-size: 0.7em;
+    margin: 0; }
 
   nav ul li {
     list-style: none;
