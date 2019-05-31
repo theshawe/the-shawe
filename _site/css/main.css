@@ -598,6 +598,14 @@ section .workList .uwp a {
     font-size: 2em;
     padding-bottom: 0px; }
 
+  .shaweBranding .work h2 {
+    line-height: 1em;
+    font-size: 22px;
+    padding: 1em; }
+
+  header .work {
+    background: #000; }
+
   header p {
     font-size: 33px; }
 
