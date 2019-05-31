@@ -91,6 +91,7 @@ header .lsd {
 header .uwp {
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)),
     url(https://shawe.co/images/work/underwaterpistol-header.jpg);
+  background-size: contain;
 }
 
 .work h2 {

@@ -105,7 +105,8 @@ header .lsd {
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/lsd-header.jpg); }
 
 header .uwp {
-  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/underwaterpistol-header.jpg); }
+  background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/underwaterpistol-header.jpg);
+  background-size: contain; }
 
 .work h2 {
   padding: 2em; }
@@ -612,7 +613,7 @@ section .workList .uwp a {
     position: inherit; }
 
   header .pageTitle {
-    margin: 0em 0em;
+    margin: 1em 0em;
     padding: 0em 0em; }
 
   #nav-home {
