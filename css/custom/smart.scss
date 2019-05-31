@@ -15,8 +15,8 @@
 
   .shaweBranding .work h2 {
     line-height: 1em;
-    font-size: 22px;
-    padding: 1em;
+    font-size: 0.5em;
+    padding: 0.5em;
   }
 
   header .work {
@@ -24,7 +24,10 @@
   }
 
   header p {
-    font-size: 33px;
+    font-size: 0.75em;
+    padding: 1em 1em;
+    margin: 0;
+    font-style: italic;
   }
 
   .contact {
@@ -36,6 +39,12 @@
   header {
     position: inherit;
   }
+
+  header .pageTitle {
+    margin: 0em 0em;
+    padding: 0em 0em;
+  }
+
   #nav-home {
     display: none;
   }
@@ -75,6 +84,12 @@
     padding: 1em;
     padding-top: 0;
     margin: 0 auto;
+  }
+
+  section p {
+    padding: 1em;
+    font-size: 0.8em;
+    margin: 0;
   }
 
   .blog-posts p {

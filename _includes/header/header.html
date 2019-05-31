@@ -13,23 +13,23 @@
 
 
   {% if page.category == 'home' %}
-  <div class="intro">
+  <div class="pageTitle intro">
     {% elsif page.category == 'work' %}
-    <div class="work">
+    <div class="pageTitle work">
         {% elsif  page.category ==  'ib' %}
-        <div class="ib">
+        <div class="pageTitle ib">
             {% elsif page.category == 'crc' %}
-            <div class="crc">
+            <div class="pageTitle crc">
                 {% elsif page.category == 'maloneCollege' %}
-                <div class="maloneCollege">
+                <div class="pageTitle maloneCollege">
                     {% elsif page.category == 'techies' %}
-                    <div class="techies">
+                    <div class="pageTitle techies">
                       {% elsif page.category == 'theFoundry' %}
-                      <div class="theFoundryBelfast">
+                      <div class="pageTitle theFoundryBelfast">
                         {% elsif page.category == 'lsd' %}
-                        <div class="lsd">
+                        <div class="pageTitle lsd">
                             {% elsif page.category == 'uwp' %}
-                            <div class="uwp">
+                            <div class="pageTitle uwp">
       {% else %}
       <div class="intro">
         {% endif %} {% if page.category == 'home' %}
@@ -39,7 +39,7 @@
         </p>
         {% elsif page.category == 'work' %}
 
-        <h2>{{ page.title }}</h2>
+        <h2>Work</h2>
 
         {% elsif page.category == 'blog' %}
         <h2>{{ page.title }}</h2>

@@ -82,39 +82,29 @@ header .work {
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://images.unsplash.com/photo-1506729623306-b5a934d88b53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size: 100%; }
 
-header .ib {
+header .pageTitle {
   margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
+  padding: 0.5em 0em; }
+
+header .ib {
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/invisible-building-header.jpg); }
 
 header .crc {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/chain-reaction-cycles-header.jpg); }
 
 header .maloneCollege {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/malone-college-header.jpg); }
 
 header .techies {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/techies-in-residence-header.jpg); }
 
 header .theFoundryBelfast {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/the-foundry-belfast-header.jpg); }
 
 header .lsd {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/lsd-header.jpg); }
 
 header .uwp {
-  margin: 1em 0em 0em 0em;
-  padding: 0.5em 0em;
   background: linear-gradient(rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.88)), url(https://shawe.co/images/work/underwaterpistol-header.jpg); }
 
 .work h2 {
@@ -600,14 +590,17 @@ section .workList .uwp a {
 
   .shaweBranding .work h2 {
     line-height: 1em;
-    font-size: 22px;
-    padding: 1em; }
+    font-size: 0.5em;
+    padding: 0.5em; }
 
   header .work {
     background: #000; }
 
   header p {
-    font-size: 33px; }
+    font-size: 0.75em;
+    padding: 1em 1em;
+    margin: 0;
+    font-style: italic; }
 
   .contact {
     text-align: center; }
@@ -617,6 +610,10 @@ section .workList .uwp a {
 
   header {
     position: inherit; }
+
+  header .pageTitle {
+    margin: 0em 0em;
+    padding: 0em 0em; }
 
   #nav-home {
     display: none; }
@@ -656,6 +653,11 @@ section .workList .uwp a {
     padding: 1em;
     padding-top: 0;
     margin: 0 auto; }
+
+  section p {
+    padding: 1em;
+    font-size: 0.8em;
+    margin: 0; }
 
   .blog-posts p {
     margin-top: 1em;
