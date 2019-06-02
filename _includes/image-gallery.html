@@ -33,11 +33,9 @@
     href="{{ site.url }}{{ file.path }}"
     title="{{ filename }}"
     ><img
-      src="{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{
-        file.path
-      }}"
+      src="{{ site.url }}{{ file.path }}"
       alt="{{ filename }}"
       title="{{ filename }}"
-    /><span>{{ filename }}</span></a
+    /><span style="display: none;">{{ filename }}</span></a
   >{% endif %}{% endif %}{% endfor %}
 </p>

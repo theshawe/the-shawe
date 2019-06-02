@@ -36,14 +36,14 @@ a:visited {
 
 .shaweBranding {
   position: relative;
-  padding-top: 0.5em;
+  padding-top: 0em;
   width: 100%;
   text-align: center;
   display: block;
   height: auto;
   background: #00000082;
   font-size: 2em;
-  padding-bottom: 0.5em; }
+  padding-bottom: 0em; }
 
 .shaweBranding h1 {
   line-height: 1em;
@@ -83,7 +83,7 @@ header .work {
   background-size: 100%; }
 
 header .pageTitle {
-  margin: 1em 0em 0em 0em;
+  margin: 0em 0em 0em 0em;
   padding: 0em 0em; }
 
 header .ib {
@@ -131,6 +131,14 @@ header p {
   /* Site
   /*
   /*****************************************************************************/
+h2 {
+  text-align: center;
+  line-height: 2em;
+  margin-top: 2em; }
+
+.igLink {
+  text-decoration: underline; }
+
 article {
   max-width: 700px;
   margin: 0 auto;
@@ -217,6 +225,15 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   padding-left: 1em; }
+
+.image-gallery {
+  padding: 1em 10em; }
+
+.image-gallery a {
+  opacity: 0.1; }
+
+.image-gallery a:hover {
+  opacity: 1; }
 
 /*****************************************************************************/
 /*
@@ -593,6 +610,20 @@ section .workList .uwp a {
     line-height: 1em;
     font-size: 0.5em; }
 
+  .image-gallery {
+    padding: 0; }
+
+  h2 {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 0em;
+    font-size: 0.5em; }
+
+  .image-gallery a {
+    width: 49% !important;
+    opacity: 0.5;
+    display: inline-block; }
+
   header p {
     font-size: 0.75em;
     padding: 0.25em 1em 1.25em 1em;
@@ -728,7 +759,10 @@ section .workList .uwp a {
     text-align: center;
     line-height: 1em;
     padding: 1em;
-    opacity: 1; }
+    opacity: 1;
+    margin-top: -135px;
+    padding-bottom: 0;
+    padding-bottom: 1em; }
 
   .content {
     padding: 0px;

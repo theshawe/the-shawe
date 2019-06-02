@@ -18,7 +18,24 @@
     font-size: 0.5em;
   }
 
-  header .work {
+  .image-gallery {
+    padding: 0;
+  }
+
+  h2 {
+    text-align: center;
+    line-height: 2em;
+    margin-top: 0em;
+    font-size: 0.5em;
+  }
+
+  .image-gallery a {
+    width: 49% !important;
+    opacity: 0.5;
+    display: inline-block;
+  }
+
+  header .intro p {
   }
 
   header p {
@@ -171,6 +188,9 @@
     line-height: 1em;
     padding: 1em;
     opacity: 1;
+    margin-top: -135px;
+    padding-bottom: 0;
+    padding-bottom: 1em;
   }
 
   .content {

@@ -9,6 +9,15 @@
   /* Site
   /*
   /*****************************************************************************/
+h2 {
+  text-align: center;
+  line-height: 2em;
+  margin-top: 2em;
+}
+
+.igLink {
+  text-decoration: underline;
+}
 
 article {
   max-width: 700px;
@@ -114,6 +123,17 @@ nav ul li a {
   padding-left: 1em;
 }
 
+.image-gallery {
+  padding: 1em 10em;
+}
+
+.image-gallery a {
+  opacity: 0.1;
+}
+
+.image-gallery a:hover {
+  opacity: 1;
+}
 /*****************************************************************************/
 /*
   /* Posts
