@@ -132,15 +132,41 @@
 </article>
 
 <footer>
-  <nav>
-  <ul>
-    <li><a href="/index.html">Home</a></li>
-    <li><a href="/work">CV</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/podcast">Podcast</a></li>
-    <li><a href="/contact.html">Contact </a></li>
-  </ul>
-</nav>
+  <style>
+  .image-gallery {
+    overflow: auto;
+    margin-left: -1% !important;
+  }
+  .image-gallery a {
+    float: left;
+    display: block;
+    margin: 0 0 1% 1%;
+    width: 19%;
+    text-align: center;
+    text-decoration: none !important;
+  }
+  .image-gallery a span {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3px 0;
+  }
+  .image-gallery a img {
+    width: 100%;
+    display: block;
+  }
+</style>
+
+<p class="image-gallery">
+  <a href="/uploads/album/BeautifulMountains.jpg" title="BeautifulMountains"
+    ><img
+      src="192.168.1.68:4000/uploads/album/BeautifulMountains.jpg"
+      alt="BeautifulMountains"
+      title="BeautifulMountains"
+    /><span>BeautifulMountains</span></a
+  >
+</p>
 
 </footer>
 
