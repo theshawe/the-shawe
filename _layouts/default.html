@@ -14,7 +14,7 @@
 
 
 
-{% include tracking.html %}
+
 </head>
 <body>
 {% include header/header.html %}
@@ -22,6 +22,8 @@
 {% include footer/footer.html %}
 </body>
 
+<!--Matomo, formerly Piwik, is a free and open source web analytics  - Matamo Piwik -->
+{% include tracking.html %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127024031-1"></script>
 <script>
@@ -36,7 +38,22 @@
 <script src="//use.typekit.net/ksh3nef.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
+<script type="text/javascript">
+let anchorlinks = document.querySelectorAll('a[href^="#"]')
 
+ for (let item of anchorlinks) { // relitere
+     item.addEventListener('click', (e)=> {
+         let hashval = item.getAttribute('href')
+         let target = document.querySelector(hashval)
+         target.scrollIntoView({
+             behavior: 'smooth',
+             block: 'start'
+         })
+         history.pushState(null, null, hashval)
+         e.preventDefault()
+     })
+ }
+</script>
 
     </body>
 </html>

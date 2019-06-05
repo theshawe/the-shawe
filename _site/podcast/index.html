@@ -61,27 +61,6 @@
 
 
 
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-  (function() {
-    var u = "//theshawe.com/piwik/";
-    _paq.push(["setTrackerUrl", u + "matomo.php"]);
-    _paq.push(["setSiteId", "1"]);
-    var d = document,
-      g = d.createElement("script"),
-      s = d.getElementsByTagName("script")[0];
-    g.type = "text/javascript";
-    g.async = true;
-    g.defer = true;
-    g.src = u + "matomo.js";
-    s.parentNode.insertBefore(g, s);
-  })();
-</script>
-<!-- End Matomo Code -->
 
 </head>
 <body>
@@ -108,41 +87,20 @@
          
   </div>
   
-  <h2>I like photography | <a class="igLink" href="https://www.instagram.com/theshawe/">instagram</a></h2>
 
 </header>
 
+<div class="blogFeature">
+
+  <a href="#latestThoughts">VLOGS / P0STS / THOUGHTS 👇🏿</a>
+
+</div>
 
 
 
 
-    <style>
-  .image-gallery {
-    overflow: auto;
-    margin-left: -1% !important;
-  }
-  .image-gallery a {
-    float: left;
-    display: block;
-    margin: 0 0 1% 1%;
-    width: 19%;
-    text-align: center;
-    text-decoration: none !important;
-  }
-  .image-gallery a span {
-    display: block;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    padding: 3px 0;
-  }
-  .image-gallery a img {
-    width: 100%;
-    display: block;
-  }
-</style>
 
-<p class="image-gallery">
+    <p class="image-gallery">
   <a
     href="http://192.168.1.68:4000/uploads/album/beautiful-donegal-very-old-building-space.jpg"
     title="beautiful-donegal-very-old-building-space"
@@ -186,6 +144,7 @@
   >
 </p>
 
+    <a class="igLink" href="https://www.instagram.com/theshawe/">instagram</a>
 
 <article class="content">
   <iframe
@@ -209,10 +168,41 @@
 </article>
 
 <footer>
-  % include footer/nav.html %}
+  <nav>
+  <ul>
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/work">CV</a></li>
+    <li><a href="/blog">Blog</a></li>
+    <li><a href="/podcast">Podcast</a></li>
+    <li><a href="/contact.html">Contact </a></li>
+  </ul>
+</nav>
+
 </footer>
 
 </body>
+
+<!--Matomo, formerly Piwik, is a free and open source web analytics  - Matamo Piwik -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u = "//theshawe.com/piwik/";
+    _paq.push(["setTrackerUrl", u + "matomo.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d = document,
+      g = d.createElement("script"),
+      s = d.getElementsByTagName("script")[0];
+    g.type = "text/javascript";
+    g.async = true;
+    g.defer = true;
+    g.src = u + "matomo.js";
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<!-- End Matomo Code -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127024031-1"></script>
@@ -228,7 +218,22 @@
 <script src="//use.typekit.net/ksh3nef.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
 
+<script type="text/javascript">
+let anchorlinks = document.querySelectorAll('a[href^="#"]')
 
+ for (let item of anchorlinks) { // relitere
+     item.addEventListener('click', (e)=> {
+         let hashval = item.getAttribute('href')
+         let target = document.querySelector(hashval)
+         target.scrollIntoView({
+             behavior: 'smooth',
+             block: 'start'
+         })
+         history.pushState(null, null, hashval)
+         e.preventDefault()
+     })
+ }
+</script>
 
     </body>
 </html>

@@ -16,7 +16,31 @@ h2 {
 }
 
 .igLink {
-  text-decoration: underline;
+  background: #202021;
+  width: 100%;
+  display: block;
+  line-height: 2em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-top: 0.65em;
+  box-shadow: 0 0 black;
+  text-decoration: none;
+}
+
+.blogFeature a {
+  background: #715c661f;
+  width: 100%;
+  display: block;
+  line-height: 1em;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  padding-top: 0.65em;
+  box-shadow: 0 0 black;
+  text-decoration: none;
+  border-radius: 2px;
 }
 
 article {
@@ -76,22 +100,6 @@ header .title {
   display: none;
 }
 
-.posts li a {
-  text-decoration: none;
-  border-radius: 0px;
-  background-color: rgb(255, 255, 255);
-  color: #000;
-  display: block;
-  line-height: 1em;
-  padding: 0;
-  text-align: center;
-}
-
-.posts li a:hover {
-  color: #fff;
-  background-color: #1f1f1f;
-}
-
 footer {
   clear: both;
   float: left;
@@ -123,17 +131,6 @@ nav ul li a {
   padding-left: 1em;
 }
 
-.image-gallery {
-  padding: 1em 10em;
-}
-
-.image-gallery a {
-  opacity: 0.1;
-}
-
-.image-gallery a:hover {
-  opacity: 1;
-}
 /*****************************************************************************/
 /*
   /* Posts
