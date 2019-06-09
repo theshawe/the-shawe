@@ -569,6 +569,17 @@ nav ul li {
   width: 100%;
   text-align: center; }
 
+.work header p {
+  color: #ffffff;
+  font-size: 80px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1em;
+  padding: 1em;
+  opacity: 1;
+  padding-top: 2.5%; }
+
 h2#latestThoughts {
   text-align: center;
   background: #16161b;
