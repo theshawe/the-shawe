@@ -661,6 +661,9 @@ section .workList .lsd a {
 section .workList .uwp a {
   background: #4ddaf4; }
 
+.vegangallery .image-gallery a {
+  opacity: 1; }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .shaweBranding {
