@@ -11,11 +11,27 @@ category: 99percentvegan
 
 </header>
 
-<section class="vegangallery">
 
-{% include image-gallery.html folder="/99percentvegan/images" %}
 
-</section>
+<article class="content veganArticle">
+    <div class="blog-posts veganPosts">
+      <ul class="posts">
+        {% for post in site.categories['99percentvegan'] limit:1 %}
+        <li>
+         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="vegangallery">
+
+      {% include image-gallery.html folder="/99percentvegan/images" %}
+
+      </div>
+
+  </article>
+
+
 
 
 </article>

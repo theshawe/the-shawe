@@ -1,0 +1,19 @@
+---
+layout: blogDefault
+category: veganpost
+---
+
+<section>
+  <div class="blog-posts veganPost">
+    <h2>{{ page.title }}</h2>
+
+    <div class="post">
+      {{ content }}
+    </div>
+
+    <footer class="meta">
+      {{ page.date | date_to_string }}
+      <a href="/99percentvegan/"> View More Posts </a>
+    </footer>
+  </div>
+</section>

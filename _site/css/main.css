@@ -664,6 +664,108 @@ section .workList .uwp a {
 .vegangallery .image-gallery a {
   opacity: 1; }
 
+.veganArticle {
+  max-width: 75%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  color: #dccccc;
+  padding-bottom: 200px;
+  text-align: left;
+  background: #000000;
+  border-radius: 0px;
+  padding: 0em 0em; }
+
+.veganPosts {
+  max-width: 100%;
+  box-shadow: 2px 2px 22px #08060aba;
+  padding-bottom: 0; }
+
+.veganPosts li {
+  margin: 0; }
+
+.veganPosts .posts {
+  margin: 0; }
+
+.veganPosts .posts span {
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 50%;
+  line-height: 0;
+  margin: 0;
+  color: #0c0e0d;
+  letter-spacing: -1px;
+  display: block;
+  padding: 1.75em 0px 1em 1.75em;
+  text-align: left;
+  margin-left: -35px; }
+
+.veganPosts .posts li a {
+  text-decoration: none;
+  border-radius: 0px;
+  background-color: white;
+  color: #000;
+  display: block;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  line-height: 2.5em;
+  font-size: 1em; }
+
+.veganPosts .posts li a:hover {
+  color: #fff;
+  background-color: #34b15a;
+  box-shadow: none;
+  transition: 0.3s;
+  line-height: 100% !important;
+  margin-left: -15px;
+  margin-top: -25px;
+  padding-top: 55px !important;
+  text-decoration: underline; }
+
+.veganPost {
+  margin: 0;
+  background: #34b15a;
+  text-align: left; }
+
+.veganPost h2 {
+  background: #058c60;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #f5ecec;
+  text-align: center; }
+
+.veganPost footer.meta {
+  display: block;
+  position: static;
+  background: #7aff00;
+  text-align: left;
+  margin-left: 1em;
+  width: 100%;
+  padding-left: 1em; }
+
+.veganPost footer.meta a {
+  position: relative;
+  font-size: 1em;
+  display: inline-block;
+  padding: 1em;
+  line-height: 1em;
+  background: #ef0000;
+  width: unset;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0;
+  margin-left: 2.5em; }
+
+.veganPost footer.meta a:hover {
+  background: #058c60; }
+
+.veganPost li {
+  background: #19925a61;
+  border-top: 5px solid #98ff396b;
+  line-height: 1em;
+  padding: 0.5em 0em; }
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .shaweBranding {
