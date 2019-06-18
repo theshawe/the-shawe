@@ -148,7 +148,20 @@ header p {
   line-height: 1em;
   padding: 1em;
   opacity: 1;
-  padding-top: 15%; }
+  padding-top: 9%; }
+
+.newHitter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%; }
+
+.newHitter a {
+  padding: 0.5em 0em; }
+
+.newHitter a:hover {
+  padding: 0.5em 0em;
+  border: 1px dashed;
+  cursor: pointer; }
 
 /*****************************************************************************/
 /*
